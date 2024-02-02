@@ -6,7 +6,7 @@ Enemy::Enemy(int x, int y, int s, int r) {
 	speed = s;
 	radius = r;
 	LifeFlag = true;
-	EnemyCount++;
+	EnemyCount = 1;
 };
 Enemy::~Enemy() {
 	EnemyCount--;
